@@ -29,3 +29,16 @@ body, html{
     outline: none;
     box-shadow: 2vh 2vh #00000057;
 }
+
+#centering:hover{
+    animation: wiggle 2s;
+}
+
+@keyframes wiggle{
+    0%{transform: rotateX(10deg);}
+    20%{transform: rotateX(-10deg);}
+    40%{transform: rotateX(10deg);}
+    60%{transform: rotateX(-10deg);}
+    80%{transform: rotateX(10deg);}
+    100%{transform: rotateX(0deg);}
+}
