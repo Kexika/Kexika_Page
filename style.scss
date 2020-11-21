@@ -12,9 +12,9 @@ body, html{
 }   
 
 #centering{
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 45vh; left: 30vw;
+    min-height: 10vh; min-width: 40vw;
 
     text-transform: uppercase;
     padding: .4vh;
@@ -31,14 +31,14 @@ body, html{
 }
 
 #centering:hover{
-    animation: wiggle 2s;
+    animation: wiggle .8s;
 }
 
 @keyframes wiggle{
-    0%{transform: rotateX(10deg);}
-    20%{transform: rotateX(-10deg);}
-    40%{transform: rotateX(10deg);}
-    60%{transform: rotateX(-10deg);}
-    80%{transform: rotateX(10deg);}
-    100%{transform: rotateX(0deg);}
+    0%{transform: rotate(2deg);}
+    20%{transform: rotate(-2deg);}
+    40%{transform: rotate(2deg);}
+    60%{transform: rotate(-2deg);}
+    80%{transform: rotate(2deg);}
+    100%{transform: rotate(0deg);}
 }
