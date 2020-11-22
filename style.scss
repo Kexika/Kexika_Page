@@ -32,6 +32,7 @@ body, html{
 
 #centering:hover{
     animation: wiggle .8s;
+    cursor: pointer;
 }
 
 @keyframes wiggle{
